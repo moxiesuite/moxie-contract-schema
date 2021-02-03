@@ -1,15 +1,15 @@
-# Schema Description: Truffle Contract Object
+# Schema Description: Moxie Contract Object
 
 | type | _object_ |
 | ---: | ---- |
 | JSON Schema | [contract-object.spec.json](spec/contract-object.spec.json) |
 
 
-[truffle-contract](https://github.com/trufflesuite/truffle-contract) uses a
+[moxie-contract](https://github.com/moxiesuite/moxie-contract) uses a
 formally specified<sup>[1](#footnote-1)</sup> JSON object format to represent
-Ethereum Virtual Machine (EVM) smart contracts. This representation is intended
+Vapory Virtual Machine (VVM) smart contracts. This representation is intended
 to facilitate the use of general purpose smart contract abstractions
-(such as truffle-contract) by capturing relevant smart contract information in a
+(such as moxie-contract) by capturing relevant smart contract information in a
 persistent and portable manner.
 
 Objects following this schema represent individual smart contracts as defined
@@ -32,7 +32,7 @@ with deployed contracts on-chain)
 
 <a name="footnote-1">1.</a> JSON Schema [http://json-schema.org](http://json-schema.org/)
 
-<a name="footnote-2">2.</a> Ethereum Contract JSON ABI [https://github.com/ethereum/wiki/wiki/Ethereum-Contract-ABI#json](https://github.com/ethereum/wiki/wiki/Ethereum-Contract-ABI#json)
+<a name="footnote-2">2.</a> Vapory Contract JSON ABI [https://github.com/vaporyco/wiki/wiki/Vapory-Contract-ABI#json](https://github.com/vaporyco/wiki/wiki/Vapory-Contract-ABI#json)
 
 
 

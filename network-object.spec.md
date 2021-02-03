@@ -1,4 +1,4 @@
-# Schema Description: Truffle Contract Network Instance Object
+# Schema Description: Moxie Contract Network Instance Object
 
 | type | _object_ |
 | ---: | ---- |
@@ -42,7 +42,7 @@ meaningful descriptions of the event.
 | ---: | ---- |
 | ref | [abi.spec.json](spec/abi.spec.json) |
 
-Ethereum Contract JSON ABI item representing an EVM output log event for a
+Vapory Contract JSON ABI item representing an EVM output log event for a
 contract. Matches objects with `"type": "event"` in the JSON ABI.
 
 

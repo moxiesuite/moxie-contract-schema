@@ -2,7 +2,7 @@
   "id": "contract-object.spec.json",
   "$schema": "http://json-schema.org/schema#",
   "title": "Contract Object",
-  "description": "Describes a contract consumable by Truffle, possibly including deployed instances on networks",
+  "description": "Describes a contract consumable by Moxie, possibly including deployed instances on networks",
 
   "type": "object",
   "properties": {

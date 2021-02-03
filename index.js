@@ -157,7 +157,7 @@ function chain() {
 // Schema module
 //
 
-var TruffleContractSchema = {
+var MoxieContractSchema = {
   // Return a promise to validate a contract object
   // - Resolves as validated `contractObj`
   // - Rejects with list of errors from schema validator
@@ -232,4 +232,4 @@ var TruffleContractSchema = {
   }
 };
 
-module.exports = TruffleContractSchema;
+module.exports = MoxieContractSchema;
